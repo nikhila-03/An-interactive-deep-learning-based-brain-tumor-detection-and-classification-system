@@ -1,0 +1,46 @@
+1. Importing the packages
+2. Exploring the dataset 
+	- Stage 1 - Two Class Brain Tumor
+	- Stage 2 - Four Class Brain Tumor
+3. Image processing
+	- using ImageDataGenerator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image 
+	
+4. Building the model 
+
+	Stage 1 and Stage 2 Dataset
+        - CNN
+        - Xception
+        - ResNet
+	- DenseNet201
+
+5. Training the model
+6. Building the model 
+
+
+
+
+Flask Framework
+----------------
+
+ 
+7. Flask Framework with Sqlite for signup and signin
+8. Importing the packages
+9. User Select the option of stage (1 or 2)
+10. Based on the selection the form image open for image upload
+11. User Upload an image for analysis
+12. The given input is preprocessed 
+13. The trained model is used for predicting the result
+14. Final Outcome is display 
+
+Extension
+----------
+
+In the base paper, the author mentioned to use different models for analysis the Brain Tumor dataset with CNN, got 88% of accuracy, 
+However, we can further enhance the performance by exploring other techniques such as ResNet, DenseNet and Xception for Classification 
+from which Xception got 99 and 99% of accuracy for Both the dataset respectively ,
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
